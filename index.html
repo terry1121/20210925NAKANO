@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="firstview">
+    <h1 class="firstview-catchcopy">キャッチコピー</h1>
+  </div>
+  <div class="about">
+    <h2 class="section-title">About</h2>
+    <p class="about-description">COACHTECH(コーチテック)はフリーランス特化型のオンラインコーチングプログラミングスクールです。<br>
+    プログラミング未経験の方でも、<strong>「独自の学習ノウハウ」</strong>でフリーランスエンジニアを目指すことができます。</p>
+  </div>
+  <div class="blog">
+    <h2 class="section-title">ブログ</h2>
+    <div class="blog-parent">
+      <div class="blog-child">
+        <img src="img/blog__eyecatch1.jpg" alt="">
+        <h3>コーチテックブログのタイトルがここには入ります。</h3>
+      </div>
+      <div class="blog-child">
+        <img src="img/blog__eyecatch2.jpg" alt="">
+        <h3>コーチテックブログのタイトルがここには入ります。</h3>
+      </div>
+      <div class="blog-child">
+        <img src="img/blog__eyecatch3.jpg" alt="">
+        <h3>コーチテックブログのタイトルがここには入ります。</h3>
+      </div>
+    </div>
+  <div class="form">
+    <h2 class="section-title">問い合わせ</h2>
+
+    <form class="form" name="contact" method="POST">
+      <div class="form-item">
+        <p class="form-item-label">名前</p>
+        <input type="text" name="name" class="form-item-input">
+      </div>
+      <div class="form-item">
+        <p class="form-item-label">メールアドレス</p>
+        <input type="email" name="email" class="form-item-input">
+      </div>
+      <div class="form-item">
+        <p class="form-item-label">用件</p>
+        <form action="detail.html" method="get">
+          <select class="form-1" name="select">
+            <option value="広告掲載について">広告掲載について</option>
+          </select>
+        </form>
+      </div>
+
+      <div class="form-item">
+        <p class="form-item-label">内容</p>
+        <textarea name="textarea" class="form-item-textarea"></textarea>
+      </div>
+      <div class="submit-d">
+        <input type="submit" class="form-dlt" value="削除">
+        <input type="submit" class="form-btn" value="送信">
+      </div>
+    </form>
+  </div>
+  </div>
+</body>
+</html>
